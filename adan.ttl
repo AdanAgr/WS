@@ -22,7 +22,8 @@
 			 <https://github.com/SantiagoRR2004/WebSemantica/tree/main/renfe/santaClaus.ttl#yo>,
 			 <https://github.com/usbtOp/websem/blob/main/lucas.ttl#yo>,
 			 <https://github.com/usbtOp/websem/blob/main/tomas.ttl#yo>,
-			 <https://github.com/SergiooO/FoafPerfil/blob/main/perfil.ttl#yo>.
+			 <https://github.com/SergiooO/FoafPerfil/blob/main/perfil.ttl#yo>,
+			 <https://github.com/AdanAgr/WS/blob/main/santi.ttl#yo>.
 
 	
 <> a foaf:Document ;
