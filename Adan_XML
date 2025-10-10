@@ -10,6 +10,7 @@
         <foaf:firstName>Adán</foaf:firstName>
         <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q54837"/>
         <ex:knows rdf:resource="https://github.com/mfgavilanes/WS/perfil.ttl#yo"/>
+        <ex:knows rdf:resource="https://github.com/AdanAgr/WS/blob/main/santi.ttl#yo"/>
         <ex:likesMovie rdf:resource="http://www.wikidata.org/entity/Q61448040"/>
         <ex:likesBooks rdf:resource="http://www.wikidata.org/entity/Q7766706"/>
         <ex:likesBooks rdf:resource="http://www.wikidata.org/entity/Q28312017"/>
