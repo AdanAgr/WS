@@ -6,18 +6,18 @@
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 
 <#yo> rdf:type foaf:Person;
-	foaf:name "Milagros Fernández Gavilanes";
-	foaf:firstName "Milagros";
-	foaf:surname "Fernández-Gavilanes";
-	foaf:birthday "12-09";
-	foaf:age 25;
-	foaf:gender "femenino"@es;
-	foaf:homepage <https://esei.uvigo.es/es/docencia/profesorado/profesor/fernandez-gavilanes-milagros/>;
+	foaf:name "Adán González Rodríguez";
+	foaf:firstName "Adán";
+	foaf:surname "González-Rodríguez";
+	foaf:birthday "10-11";
+	foaf:age 22;
+	foaf:gender "masculino"@es;
+	foaf:homepage <www.linkedin.com/in/adanagr>;
 	foaf:based_near <https://sws.geonames.org/6359872/>;
 	foaf:interest wikidata:Q54837 , wikidata:Q816826;
 	ex:likesMovie wikidata:Q304030 , wikidata:Q2562640 .
 	
 <> a foaf:Document ;
-	foaf:name "Perfil FOAF de MilagrosFernándezGavilanes"@es;
+	foaf:name "Perfil FOAF de AdánGonzálezRodríguez"@es;
 	foaf:primaryTopic <#yo> .
 
