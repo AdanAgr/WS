@@ -1,0 +1,31 @@
+@base <https://github.com/AdanAgr/WS/blob/main/santi.ttl> .
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://ex.org/movie#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+
+<#yo> rdf:type foaf:Person;
+	foaf:name "Santiago Palomino Vazquez";
+	foaf:firstName "Santiago";
+	foaf:surname "Palomino-Vazquez";
+	foaf:birthday "12-05";
+	foaf:age 20;
+	foaf:gender "masculino"@es;
+	foaf:homepage <https://www.linkedin.com/in/santiagopalomino/>;
+	foaf:based_near <https://sws.geonames.org/3116048/>;
+	foaf:interest wikidata:Q54837 , wikidata:Q816826;
+	ex:likesMovie wikidata:Q13417189 , wikidata:Q155653 , wikidata:Q193835, wikidata:Q61448040, wikidata:Q113380226, wikidata:Q186572, wikidata:Q170035, wikidata:Q124378349;
+	ex:likesVideoGames wikidata:Q132259134, wikidata:Q816034, wikidata:Q48078440, wikidata:Q65555252, wikidata:Q104337736, wikidata:Q63294487, wikidata:Q93951, wikidata:Q119294958, wikidata:Q854487, wikidata:Q120750799, wikidata:Q106974937, wikidata:Q18149495, wikidata:Q56027827;
+	ex:likesBooks wikidata:Q7766706, wikidata:Q2136877, wikidata: Q8034469, wikidata:Q28312017, wikidata: Q85797066, wikidata:Q126679146, wikidata: Q115966015,wikidata: Q2778373, wikidata: Q2062781, wikidata: Q3859308, wikidata:Q2464217, wikidata:Q554514, wikidata:Q480;
+	ex:knows <https://github.com/mfgavilanes/WS/perfil.ttl#yo>,
+			 <https://github.com/SantiagoRR2004/WebSemantica/tree/main/renfe/santaClaus.ttl#yo>,
+			 <https://github.com/usbtOp/websem/blob/main/lucas.ttl#yo>,
+			 <https://github.com/usbtOp/websem/blob/main/tomas.ttl#yo>,
+			 <https://github.com/SergiooO/FoafPerfil/blob/main/perfil.ttl#yo>;
+
+	
+<> a foaf:Document ;
+	foaf:name "Perfil FOAF de AdánGonzálezRodríguez"@es;
+	foaf:primaryTopic <#yo> .
+
