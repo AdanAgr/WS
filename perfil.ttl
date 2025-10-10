@@ -9,7 +9,7 @@
 	foaf:name "Adán González Rodríguez";
 	foaf:firstName "Adán";
 	foaf:surname "González-Rodríguez";
-	foaf:birthday "10-11";
+	foaf:birthday "11-10";
 	foaf:age 22;
 	foaf:gender "masculino"@es;
 	foaf:homepage <www.linkedin.com/in/adanagr>;
