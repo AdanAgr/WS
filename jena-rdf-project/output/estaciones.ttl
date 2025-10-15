@@ -1,0 +1,1004 @@
+@prefix ex:   <http://www.ejemplo.com/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ex:81200  a         geo:SpatialThing;
+        rdfs:label  "Castejón De Ebro"@es;
+        geo:lat     42.1727190;
+        geo:long    -1.6921140 .
+
+ex:08240  a         geo:SpatialThing;
+        rdfs:label  "Medina del Campo Alta Velocidad"@es;
+        geo:lat     41.3174590;
+        geo:long    -4.9100710 .
+
+ex:65311  a         geo:SpatialThing;
+        rdfs:label  "Benicarló-Peñíscola"@es;
+        geo:lat     40.4276390;
+        geo:long    0.41521700 .
+
+ex:81100  a         geo:SpatialThing;
+        rdfs:label  "Logroño"@es;
+        geo:lat     42.4574590;
+        geo:long    -2.4421930 .
+
+ex:15004  a         geo:SpatialThing;
+        rdfs:label  "Paredes de Nava"@es;
+        geo:lat     42.1506940;
+        geo:long    -4.6975990 .
+
+ex:54413  a         geo:SpatialThing;
+        rdfs:label  "Malaga Maria Zambrano"@es;
+        geo:lat     36.7113388;
+        geo:long    -4.4313888 .
+
+ex:11600  a         geo:SpatialThing;
+        rdfs:label  "Irun"@es;
+        geo:lat     43.3395365;
+        geo:long    -1.8012519 .
+
+ex:51405  a         geo:SpatialThing;
+        rdfs:label  "Cádiz"@es;
+        geo:lat     36.5289350;
+        geo:long    -6.2879716 .
+
+ex:11500  a         geo:SpatialThing;
+        rdfs:label  "Tolosa"@es;
+        geo:lat     43.1354472;
+        geo:long    -2.0790886 .
+
+ex:03309  a         geo:SpatialThing;
+        rdfs:label  "Villena Av"@es;
+        geo:lat     38.5853020;
+        geo:long    -0.8732950 .
+
+ex:02003  a         geo:SpatialThing;
+        rdfs:label  "Antequera-Santa Ana"@es;
+        geo:lat     37.0698810;
+        geo:long    -4.7190140 .
+
+ex:62103  a         geo:SpatialThing;
+        rdfs:label  "Elche Parque/Elx Parc"@es;
+        geo:lat     38.2717809;
+        geo:long    -0.6952193 .
+
+ex:11208  a         geo:SpatialThing;
+        rdfs:label  "Vitoria/Gasteiz"@es;
+        geo:lat     42.8415170;
+        geo:long    -2.6726010 .
+
+ex:35203  a         geo:SpatialThing;
+        rdfs:label  "Oropesa De Toledo"@es;
+        geo:lat     39.9217460;
+        geo:long    -5.1861370 .
+
+ex:11400  a         geo:SpatialThing;
+        rdfs:label  "Zumarraga"@es;
+        geo:lat     43.0870824;
+        geo:long    -2.3202298 .
+
+ex:78400  a         geo:SpatialThing;
+        rdfs:label  "Lleida-Pirineus"@es;
+        geo:lat     41.6201300;
+        geo:long    0.63365328 .
+
+ex:71500  a         geo:SpatialThing;
+        rdfs:label  "Tarragona"@es;
+        geo:lat     41.1115636;
+        geo:long    1.25322776 .
+
+ex:15401  a         geo:SpatialThing;
+        rdfs:label  "La Calzada"@es;
+        geo:lat     43.5353848;
+        geo:long    -5.6971507 .
+
+ex:11300  a         geo:SpatialThing;
+        rdfs:label  "Altsasu/Alsasua-Estación"@es;
+        geo:lat     42.8948470;
+        geo:long    -2.1812370 .
+
+ex:87100  a         geo:SpatialThing;
+        rdfs:label  "MONTPELLIER SUD DE FRANCE"@es;
+        geo:lat     43.5951821;
+        geo:long    3.9216961 .
+
+ex:15109  a         geo:SpatialThing;
+        rdfs:label  "Santa Lucia"@es;
+        geo:lat     42.8751500;
+        geo:long    -5.6396130 .
+
+ex:08224  a         geo:SpatialThing;
+        rdfs:label  "Redondela Av"@es;
+        geo:lat     42.2860050;
+        geo:long    -8.6194020 .
+
+ex:11200  a         geo:SpatialThing;
+        rdfs:label  "Miranda De Ebro"@es;
+        geo:lat     42.6910240;
+        geo:long    -2.9403660 .
+
+ex:78200  a         geo:SpatialThing;
+        rdfs:label  "Tardienta"@es;
+        geo:lat     41.9757160;
+        geo:long    -0.5382230 .
+
+ex:15009  a         geo:SpatialThing;
+        rdfs:label  "Sahagun"@es;
+        geo:lat     42.3693290;
+        geo:long    -5.0226670 .
+
+ex:20104  a         geo:SpatialThing;
+        rdfs:label  "Branyuelas"@es;
+        geo:lat     42.6326310;
+        geo:long    -6.2010020 .
+
+ex:56312  a         geo:SpatialThing;
+        rdfs:label  "Almeria"@es;
+        geo:lat     36.8349510;
+        geo:long    -2.4555190 .
+
+ex:18000  a         geo:SpatialThing;
+        rdfs:label  "Madrid - Atocha Cercanías"@es;
+        geo:lat     40.4066191;
+        geo:long    -3.6894391 .
+
+ex:87810  a         geo:SpatialThing;
+        rdfs:label  "Valence"@es;
+        geo:lat     44.991545;
+        geo:long    4.978703 .
+
+ex:61307  a         geo:SpatialThing;
+        rdfs:label  "Cartagena"@es;
+        geo:lat     37.6049670;
+        geo:long    -0.9751220 .
+
+ex:15122  a         geo:SpatialThing;
+        rdfs:label  "Pola De Lena/La Pola"@es;
+        geo:lat     43.1587200;
+        geo:long    -5.8310263 .
+
+ex:60911  a         geo:SpatialThing;
+        rdfs:label  "Alicante/Alacant"@es;
+        geo:lat     38.3447127;
+        geo:long    -0.4955241 .
+
+ex:11000  a         geo:SpatialThing;
+        rdfs:label  "Venta De Baños"@es;
+        geo:lat     41.9173600;
+        geo:long    -4.4958440 .
+
+ex:60406  a         geo:SpatialThing;
+        rdfs:label  "Socuellamos"@es;
+        geo:lat     39.2787760;
+        geo:long    -2.7755710 .
+
+ex:10604  a         geo:SpatialThing;
+        rdfs:label  "Cubillas de Santa Marta"@es;
+        geo:lat     41.8088610;
+        geo:long    -4.5797540 .
+
+ex:15001  a         geo:SpatialThing;
+        rdfs:label  "Grijota"@es;
+        geo:lat     42.0492250;
+        geo:long    -4.5839540 .
+
+ex:04307  a         geo:SpatialThing;
+        rdfs:label  "Figueres Vilafant"@es;
+        geo:lat     42.2647710;
+        geo:long    2.94354700 .
+
+ex:61015  a         geo:SpatialThing;
+        rdfs:label  "Archena-Fortuna"@es;
+        geo:lat     38.1313200;
+        geo:long    -1.2360370 .
+
+ex:35400  a         geo:SpatialThing;
+        rdfs:label  "Cáceres"@es;
+        geo:lat     39.4611310;
+        geo:long    -6.3856790 .
+
+ex:99117  a         geo:SpatialThing;
+        rdfs:label  "Ourense Turistico"@es;
+        geo:lat     42.3503890;
+        geo:long    -7.8727770 .
+
+ex:20309  a         geo:SpatialThing;
+        rdfs:label  "Lugo"@es;
+        geo:lat     43.0152220;
+        geo:long    -7.5521760 .
+
+ex:14100  a         geo:SpatialThing;
+        rdfs:label  "Palencia"@es;
+        geo:lat     42.0157110;
+        geo:long    -4.5341350 .
+
+ex:99159  a         geo:SpatialThing;
+        rdfs:label  "Santiago-Turistico"@es;
+        geo:lat     42.8708420;
+        geo:long    -8.5446970 .
+
+ex:23004  a         geo:SpatialThing;
+        rdfs:label  "Pontevedra"@es;
+        geo:lat     42.4219690;
+        geo:long    -8.6355460 .
+
+ex:65300  a         geo:SpatialThing;
+        rdfs:label  "Castelló"@es;
+        geo:lat     39.9884736;
+        geo:long    -0.0523456 .
+
+ex:81110  a         geo:SpatialThing;
+        rdfs:label  "Alfaro"@es;
+        geo:lat     42.1865250;
+        geo:long    -1.7479850 .
+
+ex:14213  a         geo:SpatialThing;
+        rdfs:label  "Torrelavega/Tanos"@es;
+        geo:lat     43.3276776;
+        geo:long    -4.0426871 .
+
+ex:35200  a         geo:SpatialThing;
+        rdfs:label  "Talavera De La Reina"@es;
+        geo:lat     39.9706740;
+        geo:long    -4.8265120 .
+
+ex:31412  a         geo:SpatialThing;
+        rdfs:label  "A Corunya"@es;
+        geo:lat     43.3496932;
+        geo:long    -8.4155629 .
+
+ex:20109  a         geo:SpatialThing;
+        rdfs:label  "Torre del Bierzo"@es;
+        geo:lat     42.5955780;
+        geo:long    -6.3290830 .
+
+ex:16403  a         geo:SpatialThing;
+        rdfs:label  "Avilés"@es;
+        geo:lat     43.5613390;
+        geo:long    -5.9228329 .
+
+ex:65200  a         geo:SpatialThing;
+        rdfs:label  "Sagunt/Sagunto"@es;
+        geo:lat     39.6758025;
+        geo:long    -0.2715420 .
+
+ex:04007  a         geo:SpatialThing;
+        rdfs:label  "Guadalajara - Yebes"@es;
+        geo:lat     40.5873150;
+        geo:long    -3.1243010 .
+
+ex:81202  a         geo:SpatialThing;
+        rdfs:label  "Tudela De Navarra"@es;
+        geo:lat     42.0594340;
+        geo:long    -1.5979310 .
+
+ex:87089  a         geo:SpatialThing;
+        rdfs:label  "Marseille St Charles"@es;
+        geo:lat     43.30349;
+        geo:long    5.382236 .
+
+ex:56004  a         geo:SpatialThing;
+        rdfs:label  "Jodar-Ubeda"@es;
+        geo:lat     37.9133430;
+        geo:long    -3.3489200 .
+
+ex:15106  a         geo:SpatialThing;
+        rdfs:label  "La Robla"@es;
+        geo:lat     42.8044540;
+        geo:long    -5.6262550 .
+
+ex:05000  a         geo:SpatialThing;
+        rdfs:label  "Granada"@es;
+        geo:lat     37.1840380;
+        geo:long    -3.6091540 .
+
+ex:22308  a         geo:SpatialThing;
+        rdfs:label  "Vigo Guixar"@es;
+        geo:lat     42.2392656;
+        geo:long    -8.7146089 .
+
+ex:65000  a         geo:SpatialThing;
+        rdfs:label  "Valencia-Estaciò Del Nord"@es;
+        geo:lat     39.4669305;
+        geo:long    -0.3772239 .
+
+ex:99143  a         geo:SpatialThing;
+        rdfs:label  "A Coruna-Turistico"@es;
+        geo:lat     43.3527610;
+        geo:long    -8.4097550 .
+
+ex:81002  a         geo:SpatialThing;
+        rdfs:label  "Haro"@es;
+        geo:lat     42.5836350;
+        geo:long    -2.8493960 .
+
+ex:37704  a         geo:SpatialThing;
+        rdfs:label  "Villanueva de Cordoba-Los Pedroches"@es;
+        geo:lat     38.2554049;
+        geo:long    -4.5709520 .
+
+ex:61304  a         geo:SpatialThing;
+        rdfs:label  "Torre-Pacheco"@es;
+        geo:lat     37.7469050;
+        geo:long    -0.9670780 .
+
+ex:87302  a         geo:SpatialThing;
+        rdfs:label  "NIMES"@es;
+        geo:lat     43.832291;
+        geo:long    4.365845 .
+
+ex:22300  a         geo:SpatialThing;
+        rdfs:label  "Redondela"@es;
+        geo:lat     42.2860050;
+        geo:long    -8.6194020 .
+
+ex:87173  a         geo:SpatialThing;
+        rdfs:label  "Montpellier"@es;
+        geo:lat     43.6048520;
+        geo:long    3.88049100 .
+
+ex:06006  a         geo:SpatialThing;
+        rdfs:label  "Lorca Sutullena"@es;
+        geo:lat     37.6721129;
+        geo:long    -1.6962305 .
+
+ex:61012  a         geo:SpatialThing;
+        rdfs:label  "Cieza"@es;
+        geo:lat     38.2466090;
+        geo:long    -1.4217020 .
+
+ex:15211  a         geo:SpatialThing;
+        rdfs:label  "Oviedo/Uviéu"@es;
+        geo:lat     43.3663577;
+        geo:long    -5.8548380 .
+
+ex:22200  a         geo:SpatialThing;
+        rdfs:label  "Guillarei"@es;
+        geo:lat     42.0656630;
+        geo:long    -8.6225300 .
+
+ex:35105  a         geo:SpatialThing;
+        rdfs:label  "Torrijos"@es;
+        geo:lat     39.9790030;
+        geo:long    -4.2830370 .
+
+ex:56009  a         geo:SpatialThing;
+        rdfs:label  "Cabra del Santo Cristo Y Alicun"@es;
+        geo:lat     37.6567129;
+        geo:long    -3.2626230 .
+
+ex:22100  a         geo:SpatialThing;
+        rdfs:label  "Ourense"@es;
+        geo:lat     42.3503890;
+        geo:long    -7.8727770 .
+
+ex:08247  a         geo:SpatialThing;
+        rdfs:label  "Sanabria Alta Velocidad"@es;
+        geo:lat     42.0450532;
+        geo:long    -6.5631319 .
+
+ex:65318  a         geo:SpatialThing;
+        rdfs:label  "Benicàssim"@es;
+        geo:lat     40.0579451;
+        geo:long    0.05776460 .
+
+ex:04104  a         geo:SpatialThing;
+        rdfs:label  "Camp Tarragona"@es;
+        geo:lat     41.1920660;
+        geo:long    1.27266600 .
+
+ex:94346  a         geo:SpatialThing;
+        rdfs:label  "Porto Campanha"@es;
+        geo:lat     41.1489;
+        geo:long    -8.58544 .
+
+ex:87912  a         geo:SpatialThing;
+        rdfs:label  "Aix en Provence"@es;
+        geo:lat     43.455268;
+        geo:long    5.31723 .
+
+ex:15203  a         geo:SpatialThing;
+        rdfs:label  "Mieres Puente"@es;
+        geo:lat     43.2500266;
+        geo:long    -5.7822622 .
+
+ex:94033  a         geo:SpatialThing;
+        rdfs:label  "Viana D Castelo"@es;
+        geo:lat     41.69517;
+        geo:long    -8.83134 .
+
+ex:14202  a         geo:SpatialThing;
+        rdfs:label  "Reinosa"@es;
+        geo:lat     42.9944991;
+        geo:long    -4.1409454 .
+
+ex:14223  a         geo:SpatialThing;
+        rdfs:label  "Santander"@es;
+        geo:lat     43.4583981;
+        geo:long    -3.8109529 .
+
+ex:15003  a         geo:SpatialThing;
+        rdfs:label  "Becerril"@es;
+        geo:lat     42.1047060;
+        geo:long    -4.6471200 .
+
+ex:60600  a         geo:SpatialThing;
+        rdfs:label  "Albacete-Los Llanos"@es;
+        geo:lat     38.9993840;
+        geo:long    -1.8484500 .
+
+ex:03216  a         geo:SpatialThing;
+        rdfs:label  "Valencia Joaquin Sorolla"@es;
+        geo:lat     39.4590510;
+        geo:long    -0.3829230 .
+
+ex:65402  a         geo:SpatialThing;
+        rdfs:label  "L'aldea-Amposta"@es;
+        geo:lat     40.7535640;
+        geo:long    0.61430923 .
+
+ex:99161  a         geo:SpatialThing;
+        rdfs:label  "Pontevedra-Turistico"@es;
+        geo:lat     42.4219690;
+        geo:long    -8.6355460 .
+
+ex:60500  a         geo:SpatialThing;
+        rdfs:label  "Villarrobledo"@es;
+        geo:lat     39.2608680;
+        geo:long    -2.5986210 .
+
+ex:15116  a         geo:SpatialThing;
+        rdfs:label  "Linares-Congostinas"@es;
+        geo:lat     43.1017430;
+        geo:long    -5.7721620 .
+
+ex:20211  a         geo:SpatialThing;
+        rdfs:label  "O Barco de Valdeorras"@es;
+        geo:lat     42.4183010;
+        geo:long    -6.9850300 .
+
+ex:60905  a         geo:SpatialThing;
+        rdfs:label  "Elda-Petrer"@es;
+        geo:lat     38.4848790;
+        geo:long    -0.8010900 .
+
+ex:02002  a         geo:SpatialThing;
+        rdfs:label  "Puente Genil-Herrera"@es;
+        geo:lat     37.3579000;
+        geo:long    -4.8216380 .
+
+ex:79300  a         geo:SpatialThing;
+        rdfs:label  "Girona"@es;
+        geo:lat     41.9793629;
+        geo:long    2.81693689 .
+
+ex:06003  a         geo:SpatialThing;
+        rdfs:label  "Totana"@es;
+        geo:lat     37.7635424;
+        geo:long    -1.4956153 .
+
+ex:60400  a         geo:SpatialThing;
+        rdfs:label  "Alcazar de San Juan"@es;
+        geo:lat     39.3956280;
+        geo:long    -3.2057440 .
+
+ex:50403  a         geo:SpatialThing;
+        rdfs:label  "Andujar"@es;
+        geo:lat     38.0282250;
+        geo:long    -4.0660360 .
+
+ex:92102  a         geo:SpatialThing;
+        rdfs:label  "Toledo"@es;
+        geo:lat     39.8622720;
+        geo:long    -4.0112440 .
+
+ex:20111  a         geo:SpatialThing;
+        rdfs:label  "Bembibre"@es;
+        geo:lat     42.6095580;
+        geo:long    -6.4220480 .
+
+ex:03208  a         geo:SpatialThing;
+        rdfs:label  "Cuenca Fernando Zobel"@es;
+        geo:lat     40.0351920;
+        geo:long    -2.1444100 .
+
+ex:62002  a         geo:SpatialThing;
+        rdfs:label  "Orihuela-Miguel Hernández"@es;
+        geo:lat     38.0779321;
+        geo:long    -0.9446060 .
+
+ex:30200  a         geo:SpatialThing;
+        rdfs:label  "Zamora"@es;
+        geo:lat     41.5158920;
+        geo:long    -5.7396750 .
+
+ex:15108  a         geo:SpatialThing;
+        rdfs:label  "La Pola de Gordon"@es;
+        geo:lat     42.8540990;
+        geo:long    -5.6745240 .
+
+ex:08223  a         geo:SpatialThing;
+        rdfs:label  "Vigo Urzaiz"@es;
+        geo:lat     42.2341890;
+        geo:long    -8.7137280 .
+
+ex:30100  a         geo:SpatialThing;
+        rdfs:label  "Salamanca"@es;
+        geo:lat     40.9722350;
+        geo:long    -5.6489900 .
+
+ex:15008  a         geo:SpatialThing;
+        rdfs:label  "Grajal"@es;
+        geo:lat     42.3232460;
+        geo:long    -5.0133810 .
+
+ex:22402  a         geo:SpatialThing;
+        rdfs:label  "Valenca Do Minho"@es;
+        geo:lat     42.0247340;
+        geo:long    -8.6397450 .
+
+ex:30000  a         geo:SpatialThing;
+        rdfs:label  "Monfragüe-Plasencia"@es;
+        geo:lat     39.9374640;
+        geo:long    -6.1009100 .
+
+ex:15100  a         geo:SpatialThing;
+        rdfs:label  "Leon"@es;
+        geo:lat     42.5960480;
+        geo:long    -5.5824280 .
+
+ex:20216  a         geo:SpatialThing;
+        rdfs:label  "San Clodio-Quiroga"@es;
+        geo:lat     42.4652710;
+        geo:long    -7.2871980 .
+
+ex:60000  a         geo:SpatialThing;
+        rdfs:label  "Madrid Pta.Atocha - Almudena Grandes"@es;
+        geo:lat     40.4064420;
+        geo:long    -3.6908860 .
+
+ex:37606  a         geo:SpatialThing;
+        rdfs:label  "Badajoz"@es;
+        geo:lat     38.8906960;
+        geo:long    -6.9817530 .
+
+ex:10603  a         geo:SpatialThing;
+        rdfs:label  "Corcos-Aguilarejo"@es;
+        geo:lat     41.7664460;
+        geo:long    -4.6234850 .
+
+ex:13106  a         geo:SpatialThing;
+        rdfs:label  "Llodio"@es;
+        geo:lat     43.1423514;
+        geo:long    -2.9606511 .
+
+ex:03213  a         geo:SpatialThing;
+        rdfs:label  "Requena Utiel"@es;
+        geo:lat     39.5198340;
+        geo:long    -1.1276010 .
+
+ex:55018  a         geo:SpatialThing;
+        rdfs:label  "San Roque-La Linea"@es;
+        geo:lat     36.2144820;
+        geo:long    -5.4323990 .
+
+ex:50500  a         geo:SpatialThing;
+        rdfs:label  "Cordoba"@es;
+        geo:lat     37.8882910;
+        geo:long    -4.7894530 .
+
+ex:15113  a         geo:SpatialThing;
+        rdfs:label  "Busdongo"@es;
+        geo:lat     42.9844950;
+        geo:long    -5.7053910 .
+
+ex:60902  a         geo:SpatialThing;
+        rdfs:label  "Villena"@es;
+        geo:lat     38.6317380;
+        geo:long    -0.8676890 .
+
+ex:81109  a         geo:SpatialThing;
+        rdfs:label  "Rincón De Soto"@es;
+        geo:lat     42.2300110;
+        geo:long    -1.8474730 .
+
+ex:50400  a         geo:SpatialThing;
+        rdfs:label  "Espeluy"@es;
+        geo:lat     38.0102470;
+        geo:long    -3.8327260 .
+
+ex:20300  a         geo:SpatialThing;
+        rdfs:label  "Monforte de Lemos"@es;
+        geo:lat     42.5296820;
+        geo:long    -7.5035890 .
+
+ex:87088  a         geo:SpatialThing;
+        rdfs:label  "Narbonne"@es;
+        geo:lat     43.1902530;
+        geo:long    3.00571600 .
+
+ex:50300  a         geo:SpatialThing;
+        rdfs:label  "Linares-Baeza"@es;
+        geo:lat     38.0688640;
+        geo:long    -3.5893960 .
+
+ex:87814  a         geo:SpatialThing;
+        rdfs:label  "Avignon"@es;
+        geo:lat     43.921938;
+        geo:long    4.785813 .
+
+ex:80108  a         geo:SpatialThing;
+        rdfs:label  "Tafalla"@es;
+        geo:lat     42.5257560;
+        geo:long    -1.6714670 .
+
+ex:20200  a         geo:SpatialThing;
+        rdfs:label  "Ponferrada"@es;
+        geo:lat     42.5454290;
+        geo:long    -6.6023760 .
+
+ex:43019  a         geo:SpatialThing;
+        rdfs:label  "Huelva"@es;
+        geo:lat     37.2530790;
+        geo:long    -6.9509710 .
+
+ex:71801  a         geo:SpatialThing;
+        rdfs:label  "Barcelona-Sants"@es;
+        geo:lat     41.3798632;
+        geo:long    2.14101688 .
+
+ex:65312  a         geo:SpatialThing;
+        rdfs:label  "Vinaròs"@es;
+        geo:lat     40.4716820;
+        geo:long    0.45572700 .
+
+ex:20100  a         geo:SpatialThing;
+        rdfs:label  "Astorga"@es;
+        geo:lat     42.4594890;
+        geo:long    -6.0472120 .
+
+ex:51406  a         geo:SpatialThing;
+        rdfs:label  "San Fernando-Bahía Sur"@es;
+        geo:lat     36.4680834;
+        geo:long    -6.2067676 .
+
+ex:15410  a         geo:SpatialThing;
+        rdfs:label  "Gijón/Xixón"@es;
+        geo:lat     43.5377329;
+        geo:long    -5.6758089 .
+
+ex:03410  a         geo:SpatialThing;
+        rdfs:label  "ELX AV"@es;
+        geo:lat     38.2455100;
+        geo:long    -0.7667500 .
+
+ex:23008  a         geo:SpatialThing;
+        rdfs:label  "Vilagarcia de Arousa"@es;
+        geo:lat     42.6021890;
+        geo:long    -8.7625230 .
+
+ex:50100  a         geo:SpatialThing;
+        rdfs:label  "Manzanares"@es;
+        geo:lat     39.0058370;
+        geo:long    -3.3705070 .
+
+ex:04040  a         geo:SpatialThing;
+        rdfs:label  "Zaragoza-Delicias"@es;
+        geo:lat     41.6586576;
+        geo:long    -0.9112693 .
+
+ex:80100  a         geo:SpatialThing;
+        rdfs:label  "Pamplona/Iruña"@es;
+        geo:lat     42.8248770;
+        geo:long    -1.6614190 .
+
+ex:61303  a         geo:SpatialThing;
+        rdfs:label  "Balsicas-Mar Menor"@es;
+        geo:lat     37.8188400;
+        geo:long    -0.9508910 .
+
+ex:05012  a         geo:SpatialThing;
+        rdfs:label  "Loja"@es;
+        geo:lat     37.1753720;
+        geo:long    -4.1348410 .
+
+ex:43011  a         geo:SpatialThing;
+        rdfs:label  "La Palma del Condado"@es;
+        geo:lat     37.3906650;
+        geo:long    -6.5544440 .
+
+ex:20213  a         geo:SpatialThing;
+        rdfs:label  "A Rua-Petin"@es;
+        geo:lat     42.3927600;
+        geo:long    -7.1132840 .
+
+ex:37603  a         geo:SpatialThing;
+        rdfs:label  "Montijo"@es;
+        geo:lat     38.9135390;
+        geo:long    -6.5985770 .
+
+ex:65304  a         geo:SpatialThing;
+        rdfs:label  "Orpesa/Oropesa Del Mar"@es;
+        geo:lat     40.0922580;
+        geo:long    0.13986100 .
+
+ex:10600  a         geo:SpatialThing;
+        rdfs:label  "Valladolid"@es;
+        geo:lat     41.6421670;
+        geo:long    -4.7269860 .
+
+ex:31416  a         geo:SpatialThing;
+        rdfs:label  "Cerceda-Meirama"@es;
+        geo:lat     43.2078791;
+        geo:long    -8.4467723 .
+
+ex:20113  a         geo:SpatialThing;
+        rdfs:label  "San Miguel de Las Duenyas"@es;
+        geo:lat     42.5863920;
+        geo:long    -6.5237760 .
+
+ex:20305  a         geo:SpatialThing;
+        rdfs:label  "Sarria"@es;
+        geo:lat     42.7840490;
+        geo:long    -7.4188220 .
+
+ex:10500  a         geo:SpatialThing;
+        rdfs:label  "Medina Del Campo"@es;
+        geo:lat     41.3176170;
+        geo:long    -4.9099230 .
+
+ex:70600  a         geo:SpatialThing;
+        rdfs:label  "Calatayud"@es;
+        geo:lat     41.3466920;
+        geo:long    -1.6386800 .
+
+ex:23021  a         geo:SpatialThing;
+        rdfs:label  "Padron-Barbanza"@es;
+        geo:lat     42.7389670;
+        geo:long    -8.6526140 .
+
+ex:87101  a         geo:SpatialThing;
+        rdfs:label  "NIMES PONT DU GARD"@es;
+        geo:lat     43.8168789;
+        geo:long    4.3617439 .
+
+ex:56200  a         geo:SpatialThing;
+        rdfs:label  "Guadix"@es;
+        geo:lat     37.3168730;
+        geo:long    -3.1272090 .
+
+ex:74200  a         geo:SpatialThing;
+        rdfs:label  "Huesca"@es;
+        geo:lat     42.1335940;
+        geo:long    -0.4097450 .
+
+ex:56100  a         geo:SpatialThing;
+        rdfs:label  "Moreda"@es;
+        geo:lat     37.4312160;
+        geo:long    -3.3105160 .
+
+ex:55007  a         geo:SpatialThing;
+        rdfs:label  "Ronda"@es;
+        geo:lat     36.7484010;
+        geo:long    -5.1619700 .
+
+ex:30002  a         geo:SpatialThing;
+        rdfs:label  "Plasencia"@es;
+        geo:lat     40.0222820;
+        geo:long    -6.0993970 .
+
+ex:08004  a         geo:SpatialThing;
+        rdfs:label  "Segovia Guiomar"@es;
+        geo:lat     40.9105770;
+        geo:long    -4.0945640 .
+
+ex:20005  a         geo:SpatialThing;
+        rdfs:label  "Veguellina"@es;
+        geo:lat     42.4335000;
+        geo:long    -5.8875600 .
+
+ex:02030  a         geo:SpatialThing;
+        rdfs:label  "Antequera AV"@es;
+        geo:lat     37.0334437;
+        geo:long    -4.5612901 .
+
+ex:31400  a         geo:SpatialThing;
+        rdfs:label  "Santiago de Compostela"@es;
+        geo:lat     42.8708420;
+        geo:long    -8.5446970 .
+
+ex:10605  a         geo:SpatialThing;
+        rdfs:label  "Duenyas"@es;
+        geo:lat     41.8704800;
+        geo:long    -4.5412160 .
+
+ex:17000  a         geo:SpatialThing;
+        rdfs:label  "Madrid-Chamartín-Clara Campoamor"@es;
+        geo:lat     40.4711789;
+        geo:long    -3.6829524 .
+
+ex:55020  a         geo:SpatialThing;
+        rdfs:label  "Algeciras"@es;
+        geo:lat     36.1268310;
+        geo:long    -5.4511080 .
+
+ex:65422  a         geo:SpatialThing;
+        rdfs:label  "Cambrils"@es;
+        geo:lat     41.0815642;
+        geo:long    1.04603752 .
+
+ex:13200  a         geo:SpatialThing;
+        rdfs:label  "Bilbao-Abando Indalecio Prieto"@es;
+        geo:lat     43.2601304;
+        geo:long    -2.9285592 .
+
+ex:08251  a         geo:SpatialThing;
+        rdfs:label  "A GUDIÑA-PORTA DE GALICIA"@es;
+        geo:lat     42.0606439;
+        geo:long    -7.1325320 .
+
+ex:11014  a         geo:SpatialThing;
+        rdfs:label  "Burgos Rosa Manzano"@es;
+        geo:lat     42.3711970;
+        geo:long    -3.6663080 .
+
+ex:06002  a         geo:SpatialThing;
+        rdfs:label  "Alhama de Murcia"@es;
+        geo:lat     37.8494024;
+        geo:long    -1.4145141 .
+
+ex:15015  a         geo:SpatialThing;
+        rdfs:label  "Palanquinos"@es;
+        geo:lat     42.4607160;
+        geo:long    -5.4975840 .
+
+ex:61200  a         geo:SpatialThing;
+        rdfs:label  "Murcia"@es;
+        geo:lat     37.9748243;
+        geo:long    -1.1315080 .
+
+ex:37500  a         geo:SpatialThing;
+        rdfs:label  "Mérida"@es;
+        geo:lat     38.9215030;
+        geo:long    -6.3437940 .
+
+ex:62001  a         geo:SpatialThing;
+        rdfs:label  "Beniel"@es;
+        geo:lat     38.0448608;
+        geo:long    -0.9994759 .
+
+ex:14114  a         geo:SpatialThing;
+        rdfs:label  "Aguilar de Campoo"@es;
+        geo:lat     42.7853620;
+        geo:long    -4.2338990 .
+
+ex:11511  a         geo:SpatialThing;
+        rdfs:label  "San Sebastián/Donostia"@es;
+        geo:lat     43.3176961;
+        geo:long    -1.9767172 .
+
+ex:35001  a         geo:SpatialThing;
+        rdfs:label  "Leganés"@es;
+        geo:lat     40.3286430;
+        geo:long    -3.7713161 .
+
+ex:10610  a         geo:SpatialThing;
+        rdfs:label  "Valladolid-Universidad"@es;
+        geo:lat     41.6602570;
+        geo:long    -4.7040370 .
+
+ex:87374  a         geo:SpatialThing;
+        rdfs:label  "Perpignan"@es;
+        geo:lat     42.6964210;
+        geo:long    2.88038100 .
+
+ex:51003  a         geo:SpatialThing;
+        rdfs:label  "Sevilla-Santa Justa"@es;
+        geo:lat     37.3924955;
+        geo:long    -5.9749269 .
+
+ex:20102  a         geo:SpatialThing;
+        rdfs:label  "Vega-Magaz"@es;
+        geo:lat     42.5537600;
+        geo:long    -6.0682670 .
+
+ex:37300  a         geo:SpatialThing;
+        rdfs:label  "Puertollano"@es;
+        geo:lat     38.6912800;
+        geo:long    -4.1116550 .
+
+ex:15007  a         geo:SpatialThing;
+        rdfs:label  "Villada"@es;
+        geo:lat     42.2452380;
+        geo:long    -4.9705890 .
+
+ex:56310  a         geo:SpatialThing;
+        rdfs:label  "Huercal-Viator"@es;
+        geo:lat     36.8851550;
+        geo:long    -2.4367180 .
+
+ex:50102  a         geo:SpatialThing;
+        rdfs:label  "Valdepenyas"@es;
+        geo:lat     38.7628680;
+        geo:long    -3.3957200 .
+
+ex:03412  a         geo:SpatialThing;
+        rdfs:label  "CALLOSA DE SEGURA - COX"@es;
+        geo:lat     38.1227708;
+        geo:long    -0.8745727 .
+
+ex:64100  a         geo:SpatialThing;
+        rdfs:label  "Xàtiva"@es;
+        geo:lat     38.9921480;
+        geo:long    -0.5245402 .
+
+ex:37200  a         geo:SpatialThing;
+        rdfs:label  "Ciudad Real"@es;
+        geo:lat     38.9853000;
+        geo:long    -3.9136330 .
+
+ex:87303  a         geo:SpatialThing;
+        rdfs:label  "Lyon Part Dieu"@es;
+        geo:lat     45.760281;
+        geo:long    4.859801 .
+
+ex:10602  a         geo:SpatialThing;
+        rdfs:label  "Cabezon del Pisuerga"@es;
+        geo:lat     41.7372760;
+        geo:long    -4.6512940 .
+
+ex:35206  a         geo:SpatialThing;
+        rdfs:label  "Navalmoral De La Mata"@es;
+        geo:lat     39.8949130;
+        geo:long    -5.5456070 .
+
+ex:94021  a         geo:SpatialThing;
+        rdfs:label  "Nine"@es;
+        geo:lat     41.45534;
+        geo:long    -8.54513 .
+
+ex:22201  a         geo:SpatialThing;
+        rdfs:label  "O Porrinyo"@es;
+        geo:lat     42.1641900;
+        geo:long    -8.6220200 .
+
+ex:51400  a         geo:SpatialThing;
+        rdfs:label  "Puerto De Santa María"@es;
+        geo:lat     36.6040723;
+        geo:long    -6.2179261 .
+
+ex:23002  a         geo:SpatialThing;
+        rdfs:label  "Arcade"@es;
+        geo:lat     42.3405490;
+        geo:long    -8.6111780 .
+
+ex:15112  a         geo:SpatialThing;
+        rdfs:label  "Villamanin"@es;
+        geo:lat     42.9367100;
+        geo:long    -5.6576370 .
+
+ex:51300  a         geo:SpatialThing;
+        rdfs:label  "Jerez De La Frontera"@es;
+        geo:lat     36.6800220;
+        geo:long    -6.1266032 .
+
+ex:81108  a         geo:SpatialThing;
+        rdfs:label  "Calahorra"@es;
+        geo:lat     42.3104580;
+        geo:long    -1.9577550 .
+
+ex:50207  a         geo:SpatialThing;
+        rdfs:label  "Vilches"@es;
+        geo:lat     38.2157420;
+        geo:long    -3.5175760 .
+
+ex:61005  a         geo:SpatialThing;
+        rdfs:label  "Hellin"@es;
+        geo:lat     38.5087760;
+        geo:long    -1.6884370 .
+
+ex:15012  a         geo:SpatialThing;
+        rdfs:label  "El Burgo Ranero"@es;
+        geo:lat     42.4257530;
+        geo:long    -5.2085920 .
