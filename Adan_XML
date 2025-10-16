@@ -13,7 +13,7 @@
         <games:likesVideoGames rdf:resource="http://www.wikidata.org/entity/Q18149495"/>
         <movie:likesMovie rdf:resource="http://www.wikidata.org/entity/Q170035"/>
         <foaf:firstName>Adán</foaf:firstName>
-        <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q54837"/>
+        <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q11424"/>
         <games:likesVideoGames rdf:resource="http://www.wikidata.org/entity/Q104337736"/>
         <movie:likesMovie rdf:resource="http://www.wikidata.org/entity/Q61448040"/>
         <games:likesVideoGames rdf:resource="http://www.wikidata.org/entity/Q120750799"/>
@@ -26,7 +26,7 @@
         <book:likesBooks rdf:resource="http://www.wikidata.org/entity/Q28312017"/>
         <foaf:birthday>11-10</foaf:birthday>
         <games:likesVideoGames rdf:resource="http://www.wikidata.org/entity/Q854487"/>
-        <foaf:homepage rdf:resource="https://github.com/AdanAgr/WS/blob/main/www.linkedin.com/in/adanagr"/>
+        <foaf:homepage rdf:resource="https://www.linkedin.com/in/adanagr"/>
         <book:likesBooks rdf:resource="http://www.wikidata.org/entity/Q2464217"/>
         <foaf:surname>González-Rodríguez</foaf:surname>
         <foaf:name>Adán González Rodríguez</foaf:name>
@@ -56,7 +56,8 @@
         <foaf:based_near rdf:resource="https://sws.geonames.org/3117562/"/>
         <foaf:gender xml:lang="es">masculino</foaf:gender>
         <book:likesBooks rdf:resource="http://www.wikidata.org/entity/Q126679146"/>
-        <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q816826"/>
+        <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q8242"/>
+        <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q7889"/>
         <book:likesBooks rdf:resource="http://www.wikidata.org/entity/Q85797066"/>
         <know:knows rdf:resource="https://github.com/usbtOp/websem/blob/main/tomas.ttl#yo"/>
         <games:likesVideoGames rdf:resource="http://www.wikidata.org/entity/Q63294487"/>
