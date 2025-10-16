@@ -1,17 +1,24 @@
 package entregable.jena.websem;
 
-import org.apache.jena.rdf.model.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import org.apache.jena.datatypes.xsd.XSDDatatype;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.ResourceFactory;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
-import org.apache.jena.datatypes.xsd.XSDDatatype;
 
-import java.io.*;
-import java.util.Scanner;
 
-/**
- * Generador de RDF a partir de datos de transporte público (GTFS)
- * Parte 1: Convierte el archivo stops.txt en un grafo RDF describiendo estaciones de tren
- */
 public class RDFGenerator {
     
     // Definición de namespaces
@@ -34,9 +41,7 @@ public class RDFGenerator {
         model.setNsPrefix("xsd", XSDDatatype.XSD + "#");
     }
     
-    /**
-     * Procesa el archivo stops.txt y genera el modelo RDF
-     */
+
     public void processStopsFile(String stopsFilePath) {
         System.out.println("Procesando archivo: " + stopsFilePath);
         
@@ -71,11 +76,8 @@ public class RDFGenerator {
         }
     }
     
-    /**
-     * Procesa una línea individual del archivo stops.txt
-     */
+
     private void processStopLine(String line) {
-        // Parsear CSV básico (sin manejar comillas por simplicidad)
         String[] fields = line.split(",");
         
         if (fields.length < 6) {
@@ -87,21 +89,16 @@ public class RDFGenerator {
         String stopLat = fields[4].trim();
         String stopLon = fields[5].trim();
         
-        // Validar que tenemos los datos necesarios
         if (stopId.isEmpty() || stopName.isEmpty() || stopLat.isEmpty() || stopLon.isEmpty()) {
             throw new IllegalArgumentException("Campos obligatorios vacíos");
         }
         
-        // Crear el recurso para la estación
         Resource station = model.createResource(EX_NS + stopId);
         
-        // Añadir tipo
         station.addProperty(RDF.type, GEO_SPATIAL_THING);
         
-        // Añadir nombre con idioma español
         station.addProperty(RDFS.label, model.createLiteral(stopName, "es"));
         
-        // Añadir coordenadas
         try {
             Literal latLiteral = model.createTypedLiteral(stopLat, XSDDatatype.XSDdecimal);
             Literal lonLiteral = model.createTypedLiteral(stopLon, XSDDatatype.XSDdecimal);
@@ -116,9 +113,7 @@ public class RDFGenerator {
         System.out.println("Procesada estación: " + stopId + " - " + stopName);
     }
     
-    /**
-     * Exporta el modelo a un archivo en formato Turtle
-     */
+
     public void exportToTurtle(String outputPath) {
         try (FileWriter writer = new FileWriter(outputPath)) {
             model.write(writer, "TURTLE");
@@ -128,9 +123,7 @@ public class RDFGenerator {
         }
     }
     
-    /**
-     * Exporta el modelo a un archivo en formato RDF/XML
-     */
+
     public void exportToRDFXML(String outputPath) {
         try (FileWriter writer = new FileWriter(outputPath)) {
             model.write(writer, "RDF/XML-ABBREV");
@@ -140,11 +133,9 @@ public class RDFGenerator {
         }
     }
     
-    /**
-     * Muestra estadísticas del modelo
-     */
+
     public void showStatistics() {
-        System.out.println("=== Estadísticas del modelo RDF ===");
+        System.out.println("Estadísticas del modelo RDF:");
         System.out.println("Número de triples: " + model.size());
         System.out.println("Número de estaciones: " + countStations());
     }
@@ -153,11 +144,9 @@ public class RDFGenerator {
         return model.listSubjectsWithProperty(RDF.type, GEO_SPATIAL_THING).toList().size();
     }
     
-    /**
-     * Imprime una muestra del modelo generado
-     */
+
     public void printSample() {
-        System.out.println("=== Muestra del modelo RDF (primeras 20 triples) ===");
+        System.out.println("Muestra del modelo RDF (primeras 20 triples):");
         StmtIterator iter = model.listStatements();
         int count = 0;
         while (iter.hasNext() && count < 20) {
@@ -177,7 +166,7 @@ public class RDFGenerator {
         System.out.println("=== Generador RDF para datos de transporte ===");
         
         // Configurar rutas
-        String stopsFile = "../google_transit/stops.txt"; // Relativo al directorio del proyecto
+        String stopsFile = "../google_transit/stops.txt"; 
         String outputTurtle = "output/estaciones.ttl";
         String outputRDFXML = "output/estaciones.rdf";
         
@@ -192,7 +181,6 @@ public class RDFGenerator {
             generator.showStatistics();
             generator.printSample();
             
-            // Exportar en ambos formatos
             generator.exportToTurtle(outputTurtle);
             generator.exportToRDFXML(outputRDFXML);
             

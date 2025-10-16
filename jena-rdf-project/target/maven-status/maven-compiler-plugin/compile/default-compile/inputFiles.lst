@@ -1,6 +1,8 @@
-/home/pingu/IA/4º/WS/jena-rdf-project/src/main/java/es/websem/FiltroGeografico.java
-/home/pingu/IA/4º/WS/jena-rdf-project/src/main/java/es/websem/EstacionesRDFGenerator.java
-/home/pingu/IA/4º/WS/jena-rdf-project/src/main/java/es/websem/EntregableRDFCompleto.java
-/home/pingu/IA/4º/WS/jena-rdf-project/src/main/java/entregable/jena/websem/RDFGenerator.java
-/home/pingu/IA/4º/WS/jena-rdf-project/src/main/java/entregable/jena/websem/MainApplication.java
-/home/pingu/IA/4º/WS/jena-rdf-project/src/main/java/entregable/jena/websem/GeographicFilter.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/es/websem/EstacionesRDFGenerator.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/es/websem/RDFProcessor.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/es/websem/AdvancedRDFOperations.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/es/websem/EntregableRDFCompleto.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/entregable/jena/websem/MainApplication.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/es/websem/FiltroGeografico.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/entregable/jena/websem/GeographicFilter.java
+/home/adan03/Escritorio/WS/jena-rdf-project/src/main/java/entregable/jena/websem/RDFGenerator.java
